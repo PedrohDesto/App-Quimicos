@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "CCT",
+    "slug": "CCT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/src/quimica.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/src/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "versionCode" :  1 ,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/src/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+
+      "package": "com.pedrodesto.CCT"
+    },
+
+    "web": {
+      "favicon": "./assets/src/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "72f26a8d-91b9-40c5-a92c-b663e203778a"
+      }
+    }
+  }
+}
